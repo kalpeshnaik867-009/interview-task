@@ -33,10 +33,19 @@
             <div id="employes-information">
                     <h3>Employes information</h3>
                     <div>
-                        Name<input type="text" >
-                        Phone number<input type="text" >
-                        Address<input type="text" >
+                        <form action="post">
+                            <label for="username">username</label>
+                            <input type="text" id="username" name="username">
+                            <label for="number">Number</label>
+                            <input type="text" id=" number">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" name="address">
+                            <label for="male"></label>
+                            <input type="radio" name="gender" id="male">
+                             <label for="female"></label>
+                            <input type="radio" name="gender" id="female">
 
+                        </form>
                     </div>
                     <div id="save">
                         <button onclick="saveInfo()">save</button>
