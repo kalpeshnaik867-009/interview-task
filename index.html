@@ -1,0 +1,73 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main-page">
+          <div class="top-bar">
+            <div id="logo">
+                logo
+
+            </div>
+        <div>
+                 <button id="exit">
+                    Exit
+                 </button>
+        </div>
+            
+        </div>
+        <div class="mid-bar">
+        <div class="mid-bar-menue">
+            <div>
+                <button  onclick="department()" class="menue-button"> Department</button>
+
+            </div>
+            <div>
+                <button onclick="employes()" class="menue-button" > Employes</button>
+                
+            </div>
+
+        </div>
+        <div class="employes-info employes-cancle">
+            <div id="employes-information">
+                    <h3>Employes information</h3>
+                    <div>
+                        Name<input type="text" >
+                        Phone number<input type="text" >
+                        Address<input type="text" >
+
+                    </div>
+                    <div id="save">
+                        <button onclick="saveInfo()">save</button>
+                    </div>
+                </div>
+                
+                </div>
+                <div class="department-info department-cancle">
+                    <div class="department-info-names">
+                    <div id="department-science">
+                    <button>science</button>
+                    </div>
+                    <div id="department-maths">
+                    <button>maths</button>
+                    </div>
+                    <div id="department-development">
+                    <button>science</button>
+                    </div>
+                    </div>
+                    <div class="department-info-box">
+                        <input type="text" placeholder="write something" id="department-info-box-text">
+
+                    </div>
+        
+                    
+                    </div>
+                </div>
+            </div>
+            
+            <script src="script.js"></script>
+    </body>
+</html>
+          
+    
